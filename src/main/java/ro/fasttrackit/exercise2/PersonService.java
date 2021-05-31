@@ -30,7 +30,7 @@ public class PersonService {
 
 	public Person addPerson(Person person) {
 		persons.add(person);
-		return null;
+		return          // ???
 	}
 
 	public Person removePerson(int id) throws NoIdException {
@@ -50,7 +50,7 @@ public class PersonService {
 		return result;
 	}
 
-	public List<Person> getPersonsOlderThan(int age) throws Exception {
+	public List<Person> getPersonsOlderThan(int age) throws InvalidPersonException {
 		List<Person> result = new ArrayList<>();
 		for (Person person : persons) {
 			if (person.getAge() > age) {
@@ -60,7 +60,7 @@ public class PersonService {
 		return result;
 	}
 
-	public List<String> getAllPersonNames() throws Exception {
+	public List<String> getAllPersonNames() throws InvalidPersonException {
 		List<String> result = new ArrayList<>();
 		for (Person person : persons) {
 			result.add(person.getName());
@@ -68,7 +68,7 @@ public class PersonService {
 		return result;
 	}
 
-	public Person getPerson(String name) throws Exception {
+	public Person getPerson(String name) throws InvalidPersonException {
 		for (Person person : persons) {
 			if (person.getName().equals(name)) {
 				return person;

@@ -36,4 +36,9 @@ public class ExercisesTest {
 		assertThat(exercises.sumEven(4)).isEqualTo(20);
 	}
 
+	@Test
+	@DisplayName("Sum of all digits in a number works")
+	void sumAllDigits() {
+		assertThat(exercises.sumAllDigits(73198)).isEqualTo(28);
+	}
 }

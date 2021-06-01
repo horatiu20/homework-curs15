@@ -25,7 +25,7 @@ public class PersonServiceTest {
 	@Test
 	@DisplayName("WHEN a Person is added THEN it is given an id")
 	void giveId() {
-		assertThat(personService.addPerson()).isEqualTo();      //de aici in jos, unde nu am completat -> nu imi dau seama cum sa inserez un Person, sau lista de Person
+//		assertThat(personService.addPerson()).isEqualTo();      //de aici in jos, unde nu am completat -> nu imi dau seama cum sa inserez un Person, sau lista de Person
 	}
 
 	@Test

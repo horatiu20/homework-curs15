@@ -16,4 +16,12 @@ public class Exercises {
 			return sumEven(n + 1) * n;
 		}
 	}
+
+	public int sumAllDigits(int n) {
+		if (n < 10) {
+			return n;
+		} else {
+			return sumAllDigits((n / 10)) + n % 10;
+		}
+	}
 }

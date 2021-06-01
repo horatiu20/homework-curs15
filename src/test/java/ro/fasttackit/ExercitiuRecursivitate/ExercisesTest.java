@@ -41,4 +41,10 @@ public class ExercisesTest {
 	void sumAllDigits() {
 		assertThat(exercises.sumAllDigits(73198)).isEqualTo(28);
 	}
+
+	@Test
+	@DisplayName("Palindrome - recursive string reverse works")
+	void palindromeReverse() {
+		assertThat(exercises.palindromeReverse("apa")).isEqualTo("apa");
+	}
 }

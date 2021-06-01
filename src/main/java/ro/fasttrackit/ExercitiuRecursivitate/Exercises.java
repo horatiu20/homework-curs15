@@ -24,4 +24,12 @@ public class Exercises {
 			return sumAllDigits((n / 10)) + n % 10;
 		}
 	}
+
+	public String palindromeReverse(String word) {
+		if (word == null || "".equals(word)) {
+			return "";
+		} else {
+			return word.charAt(word.length() - 1) + palindromeReverse(word.substring(0, word.length() - 1));
+		}
+	}
 }

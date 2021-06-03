@@ -1,4 +1,4 @@
-package ro.fasttrackit.ExercitiuRecursivitate;
+package ro.fasttrackit.exercitiuRecursivitate;
 
 public class Exercises {
 	public int sum(int n) {

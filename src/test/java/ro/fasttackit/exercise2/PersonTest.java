@@ -9,7 +9,6 @@ import ro.fasttrackit.exercise2.Person;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class PersonTest {
-
 	Person person;
 
 	@BeforeEach

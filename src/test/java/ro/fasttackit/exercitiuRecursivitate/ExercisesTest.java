@@ -1,4 +1,4 @@
-package ro.fasttackit.ExercitiuRecursivitate;
+package ro.fasttackit.exercitiuRecursivitate;
 
 /* create an object and tests for recursive methods:
 1) sum of first n integer numbers
@@ -12,7 +12,7 @@ package ro.fasttackit.ExercitiuRecursivitate;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import ro.fasttrackit.ExercitiuRecursivitate.Exercises;
+import ro.fasttrackit.exercitiuRecursivitate.Exercises;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 

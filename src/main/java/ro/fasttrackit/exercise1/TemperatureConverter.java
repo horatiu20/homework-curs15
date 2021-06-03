@@ -20,12 +20,10 @@ Exemplu:
 
 public class TemperatureConverter {
 	public static double fahrenheitToCelsius(double temperature) {
-		double celsius = (temperature - 32) * 5 / 9;
-		return celsius;
+		return (temperature - 32) * 5 / 9;
 	}
 
 	public static double celsiusToFahrenheit(double temperature) {
-		double fahrenheit = temperature * 9 / 5 + 32;
-		return fahrenheit;
+		return temperature * 9 / 5 + 32;
 	}
 }

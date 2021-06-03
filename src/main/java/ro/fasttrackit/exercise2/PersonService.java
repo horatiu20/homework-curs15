@@ -46,7 +46,7 @@ public class PersonService {
 	public List<Person> getAllPersons() {
 		List<Person> result = new ArrayList<>();
 		for (Person person : persons) {
-			result.addAll(persons);
+			result.add(person);
 		}
 		return result;
 	}
@@ -55,7 +55,7 @@ public class PersonService {
 		List<Person> result = new ArrayList<>();
 		for (Person person : persons) {
 			if (person.getAge() > age) {
-				result.addAll(persons);
+				result.add(person);
 			}
 		}
 		return result;
